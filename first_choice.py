@@ -100,7 +100,7 @@ def first_choice_hill_climbing(graph, limit):
         set2 = neighbor_set2
         count += 1
                
-        
+if __name__ == "__main__":
 
-print(first_choice_hill_climbing(graph, 1000))
+    print(first_choice_hill_climbing(graph, 1000))
 
